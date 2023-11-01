@@ -80,6 +80,18 @@ export const Home = () => {
         item
         sx={{
           width: "auto",
+          textAlign: "center",
+        }}
+        xs={12}
+      >
+        <Typography variant="h3" component="h3" gutterBottom>
+          Welcome to the PaltaLabs frontend challenge Q4
+        </Typography>
+      </Grid>
+      <Grid
+        item
+        sx={{
+          width: "auto",
         }}
       >
         <Paper
